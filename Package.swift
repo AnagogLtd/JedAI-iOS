@@ -28,6 +28,24 @@ let package = Package(
             ]
         ),
         .library(
+            name: "JedAIBundle2",
+            targets: [
+                "JedAIKit",
+                "JedAIPOIKit",
+                "JedAIGeofenceKit",
+                "JedAIConfigKit",
+                "JedAIReportKit",
+                "JedAIMetricsKit",
+                "JedAIJEMAKit",
+                "JedAIUIKit",
+                "JedAILambdaKit",
+                "JedAITripKit",
+                "FMDB",
+                "ZipArchive",
+                "Bugsnag",
+            ]
+        ),
+        .library(
             name: "JedAIKit",
             targets: [
                 "JedAIKit",
